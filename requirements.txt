@@ -1,0 +1,23 @@
+# --- Core Dependencies ---
+torch
+torchvision
+numpy
+opencv-python
+tqdm
+gfpgan
+realesrgan
+basicsr
+imageio
+py-cpuinfo
+psutil
+Pillow-SIMD
+
+
+# 1. For NVIDIA GPUs (CUDA):
+# onnxruntime-gpu
+#
+# 2. For AMD and Intel GPUs on Windows (DirectML):
+onnxruntime-directml
+#
+# 3. For CPU-only or other setups:
+# onnxruntime
